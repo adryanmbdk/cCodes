@@ -41,9 +41,8 @@ int main()
     printf("Insira o tamanho do vetor:");
     scanf("%d", &n);
 
-    allocV(n, v);
+    v = allocV(n);
     readV(n, v);
-    printV(n, v);
 
     free(v);
 
